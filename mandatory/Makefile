@@ -34,6 +34,7 @@ clean:
 	make -C $(PRINTF_PATH) clean
 fclean:
 	rm -f $(NAME) $(LIBFT) $(PRINTF) $(OBJS)
+	rm -f *.txt
 	make -C $(LIBFT_PATH) fclean
 	make -C $(PRINTF_PATH) fclean
 
